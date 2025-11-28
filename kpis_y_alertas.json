@@ -1,0 +1,40 @@
+{
+  "fecha_generacion": "2025-11-28 13:53:37",
+  "año_referencia": 2024,
+  "indicadores": {
+    "atenciones_totales": 265130,
+    "matricula_total": 1175068,
+    "tasa_por_500": 112.81474774225832,
+    "tasa_por_1000": 225.62949548451664,
+    "porcentaje_poblacion": 22.562949548451662,
+    "orientadores_necesarios": 2350,
+    "carga_por_orientador": 112.81474774225832,
+    "brecha_genero": 1.2650634972165493,
+    "crecimiento_anual": -26.15483170164469,
+    "concentracion_top3": 37.51612703483869
+  },
+  "alertas": [
+    {
+      "nivel": "CRÍTICO",
+      "tipo": "Tasa Elevada por 500 Estudiantes",
+      "valor": "112.8",
+      "umbral": "> 12.5",
+      "mensaje": "La tasa anual (112.8 por 500) supera el umbral crítico",
+      "recomendacion": "Aumentar el número de orientadores escolares inmediatamente"
+    },
+    {
+      "nivel": "CRÍTICO",
+      "tipo": "Alto Porcentaje Poblacional",
+      "valor": "22.56%",
+      "umbral": "> 2.5%",
+      "mensaje": "El 22.56% de la población requiere atención",
+      "recomendacion": "Implementar programas de prevención masivos"
+    }
+  ],
+  "semaforo": {
+    "score": 70,
+    "nivel": "CRÍTICO",
+    "alertas_criticas": 2,
+    "alertas_advertencia": 0
+  }
+}

@@ -1,0 +1,23 @@
+﻿localidad,nivel_riesgo,riesgo_predicho,confianza
+Antonio Nariño,Alto,Alto,0.95
+Barrios Unidos,Alto,Alto,0.95
+Chapinero,Alto,Alto,0.97
+Teusaquillo,Alto,Alto,0.98
+Usaquén,Alto,Alto,0.95
+Kennedy,Alto,Alto,0.95
+Suba,Alto,Alto,0.89
+Tunjuelito,Medio,Medio,0.72
+Engativá,Medio,Medio,0.93
+Sin Dato,Medio,Medio,0.89
+Puente Aranda,Medio,Medio,0.48
+Fontibón,Medio,Medio,0.79
+Fuera de Bogotá,Medio,Medio,0.7
+Los Mártires,Medio,Medio,0.62
+Santa Fé,Medio,Medio,0.77
+Bosa,Bajo,Bajo,0.96
+Ciudad Bolivar,Bajo,Bajo,0.81
+La Candelaria,Bajo,Bajo,0.95
+San Cristóbal,Bajo,Bajo,0.81
+Rafael Uribe Uribe,Bajo,Bajo,0.62
+Sumapaz,Bajo,Bajo,0.9
+Usme,Bajo,Bajo,0.91

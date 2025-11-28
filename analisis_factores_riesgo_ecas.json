@@ -1,0 +1,57 @@
+{
+  "fecha_analisis": "2025-11-28 15:14:27",
+  "fuente_datos": "ECAS 2016 + Morbilidad Salud Mental Bogotá",
+  "poblacion_objetivo": "Niños, niñas, adolescentes y jóvenes",
+  "factores_identificados": [
+    "consumo_sustancias",
+    "violencia_escolar",
+    "comportamiento_sexual",
+    "salud_mental",
+    "entorno_familiar",
+    "conductas_riesgo"
+  ],
+  "indicadores_riesgo": {
+    "consumo_sustancias": {
+      "disponible": true,
+      "cuadros": 4,
+      "registros": 32
+    },
+    "violencia_escolar": {
+      "disponible": true,
+      "cuadros": 3,
+      "registros": 3
+    },
+    "salud_mental": {
+      "disponible": true,
+      "cuadros": 3,
+      "registros": 6
+    }
+  },
+  "recomendaciones": {
+    "consumo_sustancias": [
+      "Programas de prevención del consumo en colegios",
+      "Talleres de educación sobre riesgos de sustancias psicoactivas",
+      "Red de apoyo para estudiantes en situación de consumo"
+    ],
+    "violencia_escolar": [
+      "Protocolos de atención inmediata a casos de bullying",
+      "Programas de convivencia escolar y resolución de conflictos",
+      "Capacitación docente en detección temprana de violencia"
+    ],
+    "salud_mental": [
+      "Aumento de orientadores escolares (ratio 1:500)",
+      "Programas de detección temprana de ideación suicida",
+      "Líneas de atención psicológica 24/7 para estudiantes"
+    ],
+    "comportamiento_sexual": [
+      "Educación sexual integral en todos los niveles",
+      "Programas de prevención de embarazo adolescente",
+      "Servicios de salud sexual y reproductiva accesibles"
+    ],
+    "entorno_familiar": [
+      "Escuelas de familia y apoyo a padres/cuidadores",
+      "Talleres de crianza positiva y vínculos afectivos",
+      "Red de apoyo para familias en situación de vulnerabilidad"
+    ]
+  }
+}

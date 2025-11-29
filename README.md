@@ -35,96 +35,19 @@ Sofía tuvo suerte. Recibió atención a tiempo. Pero en 2023 hubo 230 suicidios
 
 El **Observatorio de Salud Mental Escolar** es una plataforma de inteligencia artificial que transforma millones de datos dispersos en **conocimiento accionable** para quienes toman decisiones en salud pública.
 
-### 🎯 Objetivo Principal
-
-Proporcionar al **Ministerio de Salud y Protección Social**, Secretarías de Salud y Educación, orientadores escolares y tomadores de decisiones, una herramienta que:
-
-1. **VISUALIZA** el estado actual de la salud mental escolar en Bogotá
-2. **PREDICE** tendencias y factores de riesgo hasta 2030
-3. **IDENTIFICA** zonas prioritarias para intervención
-4. **RECOMIENDA** acciones basadas en evidencia
-5. **DEMOCRATIZA** el acceso a análisis avanzados sin necesidad de conocimientos técnicos
-
-### 💡 La Gran Pregunta que Responde
-
-> *"Si solo pudiéramos invertir en 5 colegios del Distrito, ¿cuáles serían y por qué? ¿Cómo será la situación en 2030 si no actuamos hoy?"*
-
 ---
-
-## 🔬 Metodología: Cuando los Datos Hablan, Vidas se Salvan
-
-### 📊 Los Datos: Nuestro Combustible
-
-Integramos **4 fuentes oficiales** que jamás habían conversado entre sí:
-
-#### 1. **Morbilidad en Salud Mental** (Secretaría de Salud)
-- **59,657 registros** de atenciones (2019-2024)
-- Población: **6-17 años** (edad escolar)
-- Variables: Diagnóstico, localidad, género, tipo de atención
-- **Por qué importa**: Es el termómetro real de cuántos niños están pidiendo ayuda
-
-#### 2. **Matrícula Oficial** (Ministerio de Educación)
-- **4,479,813 estudiantes** matriculados
-- Serie temporal 2019-2024
-- **Por qué importa**: Nos permite calcular tasas y entender la proporción real
-
-#### 3. **ECAS 2016** (Encuesta de Clima y Ambiente Escolar)
-- Base de referencia sobre **factores de riesgo**
-- Consumo de sustancias, violencia escolar, ideación suicida
-- **Por qué importa**: Es nuestra línea base para entender QUÉ está generando los casos
-
-#### 4. **Datos Actualizados 2024** (Fuentes externas validadas)
-- UNICEF Colombia, Medicina Legal, Estudios Nacionales
-- **Por qué importa**: Actualiza la película con los últimos capítulos
 
 ### 🤖 La Inteligencia Artificial: De Números a Predicciones
 
-No usamos IA porque es "moderno". La usamos porque **funciona**. Aquí está lo que hace:
-
 #### **Machine Learning: Random Forest**
 ```
-¿Qué predice? → Nivel de riesgo por localidad (Alto/Medio/Bajo)
-¿Cómo funciona? → Analiza 15+ variables simultáneas y encuentra patrones
-Precisión → 87% en clasificación correcta
+Es como tener a 100 analistas revisando simultáneamente todos los factores (atenciones, matrícula, índice de paridad, tendencias) y votando sobre cuál localidad está en mayor riesgo.
 ```
-
-**En palabras simples**: Es como tener a 100 analistas revisando simultáneamente todos los factores (atenciones, matrícula, índice de paridad, tendencias) y votando sobre cuál localidad está en mayor riesgo.
 
 #### **Deep Learning: Red Neuronal Profunda**
 ```
-Arquitectura → 5 capas (64→32→16→8→1 neuronas)
-¿Qué predice? → Número de atenciones futuras por año
-Tasa de error → RMSE: 156 atenciones (en escala de miles)
+Imagina que le muestras a un niño 1,000 fotos de nubes y le dices cuáles produjeron lluvia. Después de ver suficientes patrones, puede predecir si va a llover viendo una nube nueva. Eso hace nuestra red neuronal con los datos de salud mental: ve patrones históricos y predice el futuro.
 ```
-
-**En palabras simples**: Imagina que le muestras a un niño 1,000 fotos de nubes y le dices cuáles produjeron lluvia. Después de ver suficientes patrones, puede predecir si va a llover viendo una nube nueva. Eso hace nuestra red neuronal con los datos de salud mental: ve patrones históricos y predice el futuro.
-
-#### **Clustering: K-Means**
-```
-¿Qué hace? → Agrupa localidades con comportamientos similares
-Número de grupos → 3 clusters
-```
-
-**En palabras simples**: Si pones en una bolsa manzanas, naranjas y peras, y le pides a alguien ciego que las agrupe por textura, tamaño y peso, terminará con 3 grupos. Eso hace K-Means con localidades: encuentra similitudes que el ojo humano podría no ver.
-
-### 📈 Proyecciones hasta 2030: Viendo el Futuro
-
-Desarrollamos **modelos de regresión polinomial** que analizan:
-- Tendencias históricas 2016-2024
-- Efectos de la pandemia COVID-19
-- Patrones de recuperación post-pandemia
-- Factores demográficos y socioeconómicos
-
-**Resultado**: Proyecciones año por año (2025-2030) de **10 factores de riesgo críticos**:
-- Problemas de salud mental general
-- Trastornos de ansiedad y depresión
-- TDAH
-- Consumo de alcohol, tabaco, marihuana
-- Violencia escolar (bullying)
-- Ideación suicida
-- Consumo problemático de SPA
-
----
 
 ## 🎯 Impacto Esperado
 
@@ -147,102 +70,11 @@ Desarrollamos **modelos de regresión polinomial** que analizan:
 
 ---
 
-## 🔧 Tecnología: El Motor Invisible
-
-### Stack Tecnológico
-```python
-Frontend & Dashboard:
-├── Streamlit 1.30.0          # Interfaz interactiva
-├── Plotly 5.18.0              # Gráficos dinámicos
-└── HTML/CSS Personalizado     # Diseño adaptativo
-
-Data Science:
-├── Python 3.10                # Lenguaje base
-├── Pandas 2.1.4               # Procesamiento de datos
-├── NumPy 1.24.3               # Cálculos numéricos
-└── Scikit-learn 1.3.2         # Machine Learning
-
-Deep Learning:
-├── TensorFlow 2.15            # Framework DL
-└── Keras                      # API de alto nivel
-
-Visualización:
-└── Plotly Graph Objects       # Gráficos profesionales
-
-Deployment:
-├── Streamlit Cloud            # Hosting gratuito
-├── GitHub                     # Control de versiones
-└── Cloudflare Tunnel          # Testing local
-```
-
-### Arquitectura de Datos
-
-```
-[Datos Crudos]
-    ↓
-[Limpieza & Normalización]
-    - Filtrado 6-17 años
-    - Mapeo de géneros
-    - Categorización de trastornos
-    - Cálculo de edad promedio
-    ↓
-[Integración]
-    - Cruce por año y localidad
-    - Cálculo de tasas
-    - Índices compuestos
-    ↓
-[Modelado ML/DL]
-    - Entrenamiento Random Forest
-    - Entrenamiento Red Neuronal
-    - K-Means Clustering
-    ↓
-[Predicciones]
-    - Proyecciones 2025-2030
-    - Clasificación de riesgo
-    - Alertas automáticas
-    ↓
-[Visualización]
-    - Dashboard interactivo
-    - Reportes descargables
-```
-
----
-
-## 📊 Resultados Clave
-
-### 🔴 Alertas Críticas Identificadas
-
-1. **Consumo de Marihuana**: Proyección de **aumento del 28%** hacia 2030
-   - De 12.8% (2024) a 16.4% (2030)
-   - Edad de inicio: **13.7 años**
-
-2. **Consumo Problemático de SPA**: Proyección de **aumento del 53%**
-   - 1,462 menores diagnosticados con consumo abusivo en Bogotá en 2024
-   - Aumento de 103% en niñas y adolescentes mujeres
-
-3. **TDAH**: Proyección de **aumento del 19%**
-   - De 3.1% (2024) a 3.7% (2030)
-
-### 🟡 Áreas de Atención
-
-- **Violencia Escolar**: 28.6% de estudiantes afectados (2024)
-- **Brecha de Género**: 1.01x en atenciones (relativamente equilibrado)
-- **Concentración Territorial**: Top 3 localidades concentran 35% de casos
-
-### 🟢 Tendencias Positivas
-
-- **Tabaco**: Reducción proyectada del 11% hacia 2030
-- **Ideación Suicida**: Estabilización proyectada
-- **Salud Mental General**: Recuperación post-pandemia
-
----
 
 ## 👥 Equipo SENSORY
 
 ### 🧠 Dra. Diana Carolina Abad
 **Doctora en Neuropsicología**
-
-*"Durante 15 años he trabajado evaluando el impacto de los trastornos mentales en el desarrollo cognitivo de niños y adolescentes. He visto cómo una intervención a tiempo puede cambiar por completo la trayectoria de una vida. Este observatorio es mi forma de escalar ese impacto: ya no puedo evaluar a un niño a la vez, pero puedo ayudar a que el sistema identifique a miles antes de que sea tarde."*
 
 **Aportes al proyecto**:
 - Categorización clínica de trastornos
@@ -253,8 +85,6 @@ Deployment:
 ### 📊 Paula Andrea Abad
 **Analista de Datos**
 
-*"Los datos no mienten, pero a veces susurran. Mi trabajo es hacer que griten lo suficientemente fuerte como para que nadie pueda ignorarlos. Cada número en este dashboard representa un niño, una familia, una historia. Mi compromiso es que esas historias se conviertan en acciones."*
-
 **Aportes al proyecto**:
 - Arquitectura de datos
 - Modelos de Machine Learning y Deep Learning
@@ -263,7 +93,7 @@ Deployment:
 
 ### 🤝 Colaboración Interdisciplinaria
 
-La magia de SENSORY está en la intersección: **neuropsicología clínica** que entiende el QUÉ y el POR QUÉ, y **ciencia de datos** que revela el CUÁNTO, el DÓNDE y el CUÁNDO. No es solo un proyecto técnico. Es un puente entre la ciencia del cerebro y la ciencia de los datos.
+La magia de SENSORY está en la intersección: **neuropsicología clínica** que entiende el QUÉ y el POR QUÉ, y **ciencia de datos** que revela el CUÁNTO, el DÓNDE y el CUÁNDO. Es un proyecto escalable a nivel nacional por etapas.
 
 ---
 
@@ -287,27 +117,6 @@ La magia de SENSORY está en la intersección: **neuropsicología clínica** que
 2. Revisa los notebooks de análisis
 3. Examina la metodología completa
 4. Replica o mejora los modelos
-
----
-
-## 📁 Estructura del Repositorio
-
-```
-observatorio-salud-mental-bogota/
-│
-├── app_dashboard.py                          # Dashboard principal Streamlit
-│
-├── data/                                      # Datos procesados
-│   ├── morbilidad_salud_mental_limpio.csv    # Dataset principal limpio
-│   ├── dataset_integrado_completo.csv        # Serie temporal integrada
-│   ├── clasificacion_riesgo_localidades.csv  # Resultados ML
-│   ├── clustering_localidades.csv            # Resultados K-Means
-│   └── kpis_y_alertas.json                   # Indicadores calculados
-│
-├── requirements.txt                           # Dependencias Python
-│
-└── README.md                                  # Este archivo
-```
 
 ---
 
@@ -343,14 +152,6 @@ Este proyecto participa en **DATOS ABIERTOS: Concurso Datos al Ecosistema 2025**
 4. **Escalabilidad**: Modelo replicable a otras ciudades y otros temas de salud pública
 5. **Narrativa Basada en Datos**: Transforma números fríos en historias que mueven a la acción
 
-### 🎯 Nuestro Compromiso
-
-Si este proyecto es seleccionado, nos comprometemos a:
-- ✅ Realizar talleres de capacitación para funcionarios del MinSalud
-- ✅ Documentar la metodología completa para replicación
-- ✅ Actualizar el dashboard con datos nuevos trimestralmente
-- ✅ Expandir el análisis a otras ciudades capitales de Colombia
-
 ---
 
 ## 📞 Contacto
@@ -365,7 +166,7 @@ Si este proyecto es seleccionado, nos comprometemos a:
 
 ## 🙏 Agradecimientos
 
-A todas las instituciones que hacen posible el acceso abierto a datos:
+A todas las instituciones que hacen posible el acceso a datos abiertos:
 - Datos.gov.co por democratizar la información pública
 - Ministerio de Salud y Protección Social
 - Secretaría Distrital de Salud de Bogotá

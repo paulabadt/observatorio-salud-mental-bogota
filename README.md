@@ -1,4 +1,5 @@
-# 🧠 Observatorio de Salud Mental Escolar - Bogotá
+![Texto descriptivo de la imagen](https://drive.google.com/uc?id=1LSnnP5w6-ZpLSzfg5Fzqp2RvS2cWPsaX)
+# Observatorio de Salud Mental Escolar - Bogotá
 
 <div align="center">
 

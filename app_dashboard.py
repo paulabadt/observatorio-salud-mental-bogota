@@ -188,8 +188,14 @@ def sidebar_navigation():
 def pagina_inicio(datos):
     """Página de inicio con resumen ejecutivo"""
 
-    st.title("🧠 Observatorio de Salud Mental Escolar - Bogotá")
+    st.title("Observatorio de Salud Mental Escolar - Bogotá")
     st.markdown("### 📊 Resumen Ejecutivo del Sistema")
+
+    # --- INICIO DEL NUEVO PÁRRAFO ---
+    st.write("El observatorio de salud mental escolar tiene como objetivo monitorear y analizar los indicadores clave de salud mental y factores de riesgo asociados en la población escolar de Bogotá D.C. Nuestro análisis se centra en la población de 6 a 17 años de edad, integra datos oficiales de matrícula, género, discapacidad y morbilidad en salud mental y comportamientos de riesgo en adolescentes, con el fin de identificar patrones, alertas tempranas y necesidades prioritarias de intervención en las instituciones educativas.
+
+    El observatorio busca fortalecer la toma de decisiones informadas, apoyar la formulación de políticas públicas educativas y promover estrategias de prevención y promoción del bienestar emocional en niños y adolescentes. ")
+    # --- FIN DEL NUEVO PÁRRAFO ---
 
     kpis = datos['kpis']
     indicadores = kpis['indicadores']
@@ -200,16 +206,16 @@ def pagina_inicio(datos):
 
     with col1:
         st.metric(
-            "👥 Población Estudiantil",
+            "👥 Población Estudiantil 2024",
             f"{indicadores['matricula_total']:,}",
-            help="Matrícula total del año más reciente"
+            help="Matrícula total del 2024"
         )
 
     with col2:
         st.metric(
             "📋 Atenciones Totales",
             f"{indicadores['atenciones_totales']:,}",
-            help="Total de atenciones en salud mental"
+            help="Total de atenciones en salud mental desde 2019 al 2024"
         )
 
     with col3:

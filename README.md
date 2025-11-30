@@ -35,6 +35,19 @@ Sofía tuvo suerte. Recibió atención a tiempo. Pero en 2023 hubo 230 suicidios
 
 ---
 
+## Demostración de la Aplicación
+
+<p>
+  Aquí puedes ver un breve video que demuestra las funcionalidades clave de la aplicación.
+  Si el video no se reproduce, asegúrate de que tu navegador esté actualizado.
+</p>
+
+<p align="center">
+  <video src="assets/demo.mp4" controls width="700" height="auto" alt="Video de demostración de la aplicación"></video>
+</p>
+
+---
+
 ## 🚀 ¿Qué es el Observatorio?
 
 El **Observatorio de Salud Mental Escolar** es una plataforma de inteligencia artificial que transforma millones de datos dispersos en **conocimiento accionable** para quienes toman decisiones en salud pública.

@@ -44,9 +44,9 @@ El **Observatorio de Salud Mental Escolar** es una plataforma de inteligencia ar
 ### 🤖 La Inteligencia Artificial: De Números a Predicciones
 
 #### **Machine Learning: Random Forest**
-```
-Es como tener a 100 analistas revisando simultáneamente todos los factores (atenciones, matrícula, índice de paridad, tendencias) y votando sobre cuál localidad está en mayor riesgo.
-```
+
+>Es como tener a 100 analistas revisando simultáneamente todos los factores (atenciones, matrícula, índice de paridad, tendencias) y votando sobre cuál localidad está en mayor riesgo.
+
 
 #### **Deep Learning: Red Neuronal Profunda**
 ```

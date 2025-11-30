@@ -192,7 +192,7 @@ def pagina_inicio(datos):
     st.markdown("### 📊 Resumen Ejecutivo del Sistema")
 
     # --- INICIO DEL NUEVO PÁRRAFO ---
-    st.write('El observatorio de salud mental escolar tiene como objetivo monitorear y analizar los indicadores clave de salud mental y factores de riesgo asociados en la población escolar de Bogotá D.C. Nuestro análisis se centra en la población de 6 a 17 años de edad, integra datos oficiales de matrícula, género, discapacidad y morbilidad en salud mental y comportamientos de riesgo en adolescentes, con el fin de identificar patrones, alertas tempranas y necesidades prioritarias de intervención en las instituciones educativas.')
+    st.write('El observatorio de salud mental escolar tiene como objetivo monitorear y analizar los indicadores clave de salud mental y factores de riesgo asociados en la población escolar de Bogotá D.C. Nuestro análisis se centra en la población de 6 a 17 años de edad, integra datos oficiales de matrícula, género, discapacidad y morbilidad en salud mental y comportamientos de riesgo en adolescentes, con el fin de identificar patrones, alertas tempranas y necesidades prioritarias de intervención en las instituciones educativas. Los datos analizados desde 2019 al 2024.')
     # --- FIN DEL NUEVO PÁRRAFO ---
 
     kpis = datos['kpis']
@@ -1802,7 +1802,6 @@ def pagina_analisis_genero(datos):
     tab1, tab2, tab3, tab4 = st.tabs([
         "📊 Panorama General",
         "🏙️ Por Localidad",
-        "🧠 Por Trastorno",
         "📈 Evolución Temporal"
     ])
     

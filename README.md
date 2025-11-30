@@ -49,9 +49,9 @@ El **Observatorio de Salud Mental Escolar** es una plataforma de inteligencia ar
 
 
 #### **Deep Learning: Red Neuronal Profunda**
-```
-Imagina que le muestras a un niño 1,000 fotos de nubes y le dices cuáles produjeron lluvia. Después de ver suficientes patrones, puede predecir si va a llover viendo una nube nueva. Eso hace nuestra red neuronal con los datos de salud mental: ve patrones históricos y predice el futuro.
-```
+
+>Imagina que le muestras a un niño 1,000 fotos de nubes y le dices cuáles produjeron lluvia. Después de ver suficientes patrones, puede predecir si va a llover viendo una nube nueva. Eso hace nuestra red neuronal con los datos de salud mental: ve patrones históricos y predice el futuro.
+
 
 ## 🎯 Impacto Esperado
 

@@ -35,15 +35,20 @@ Sofía tuvo suerte. Recibió atención a tiempo. Pero en 2023 hubo 230 suicidios
 
 ---
 
-## Demostración de la Aplicación
+## 🎥 Demostración de la Aplicación
 
 <p>
   Aquí puedes ver un breve video que demuestra las funcionalidades clave de la aplicación.
-  Si el video no se reproduce, asegúrate de que tu navegador esté actualizado.
+  Si tienes problemas de reproducción, puedes descargar el video directamente <a href="https://github.com/paulabadt/observatorio-salud-mental-bogota/raw/refs/heads/main/assets/demo.mp4">haciendo clic aquí</a>.
 </p>
 
 <p align="center">
-  <video src="https://github.com/paulabadt/observatorio-salud-mental-bogota/raw/refs/heads/main/assets/demo.mp4" controls width="700" height="auto" alt="Video de demostración de la aplicación"></video>
+  <video src="https://github.com/paulabadt/observatorio-salud-mental-bogota/raw/refs/heads/main/assets/demo.mp4" 
+         controls 
+         width="700" 
+         height="auto" 
+         alt="Video de demostración de la aplicación">
+  </video>
 </p>
 
 ---

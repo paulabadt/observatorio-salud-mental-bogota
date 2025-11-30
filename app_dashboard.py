@@ -1802,6 +1802,7 @@ def pagina_analisis_genero(datos):
     tab1, tab2, tab3, tab4 = st.tabs([
         "📊 Panorama General",
         "🏙️ Por Localidad",
+        "🧠 Por Trastorno",
         "📈 Evolución Temporal"
     ])
     

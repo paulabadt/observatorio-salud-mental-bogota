@@ -3269,7 +3269,7 @@ def main():
     <div style='text-align: center; color: #6b7280; padding: 20px;'>
         <p><strong>Observatorio de Salud Mental Escolar - Bogotá D.C.</strong></p>
         <p>Desarrollado con ❤️ para el bienestar de niños, niñas, adolescentes y jóvenes</p>
-        <p>📧 Contacto: observatorio@bogota.gov.co | 📱 Línea de atención: 123</p>
+        <p>📧 Contacto: info@sensory.com.co | 📱 Línea de atención: 305 461 15 70</p>
     </div>
     """, unsafe_allow_html=True)
 

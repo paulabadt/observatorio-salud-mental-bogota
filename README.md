@@ -1,4 +1,7 @@
-![Texto descriptivo de la imagen](https://drive.google.com/uc?id=1LSnnP5w6-ZpLSzfg5Fzqp2RvS2cWPsaX)
+<p align="center">
+  <img src="https://drive.google.com/uc?id=1LSnnP5w6-ZpLSzfg5Fzqp2RvS2cWPsaX" alt="Diagrama de flujo del proyecto" width="600" height="auto">
+</p>
+```http://googleusercontent.com/image_generation_content/1
 # Observatorio de Salud Mental Escolar - Bogotá
 
 <div align="center">

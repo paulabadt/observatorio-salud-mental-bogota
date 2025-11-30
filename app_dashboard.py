@@ -137,12 +137,15 @@ def cargar_datos():
 def sidebar_navigation():
     """Menú de navegación lateral"""
 
-    st.sidebar.markdown("""
-    <div style='text-align: center; padding: 20px; background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); border-radius: 10px; margin-bottom: 20px;'>
-        <h1 style='color: white; margin: 0; font-size: 24px;'>🧠</h1>
-        <p style='color: white; margin: 5px 0 0 0; font-size: 14px;'>Observatorio SM</p>
-    </div>
-    """, unsafe_allow_html=True)
+    # Reemplaza 'nombre_de_tu_logo.png' con el nombre de archivo real de tu logo.
+
+    # Reemplaza 'nombre_de_tu_logo.png' con el nombre de archivo real de tu logo.
+
+    st.sidebar.image(
+        "logo.png",
+        caption="Observatorio de Salud Mental Escolar",  # Texto opcional
+        use_column_width=True # Ajusta la imagen al ancho de la barra lateral
+    )
 
     st.sidebar.title("🧭 Navegación")
 

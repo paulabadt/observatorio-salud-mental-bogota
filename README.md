@@ -2,9 +2,9 @@
   <img src="https://drive.google.com/uc?id=1LSnnP5w6-ZpLSzfg5Fzqp2RvS2cWPsaX" alt="Diagrama de flujo del proyecto" width="300" height="auto">
 </p>
 
-# Observatorio de Salud Mental Escolar - Bogotá
-
 <div align="center">
+
+# Observatorio de Salud Mental Escolar - Bogotá
 
 ![Salud Mental Escolar](https://img.shields.io/badge/Salud%20Mental-Escolar-blue?style=for-the-badge)
 ![Predicción ML](https://img.shields.io/badge/Predicci%C3%B3n-ML%20%2B%20DL-orange?style=for-the-badge)

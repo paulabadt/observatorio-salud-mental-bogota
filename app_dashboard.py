@@ -136,14 +136,9 @@ def cargar_datos():
 
 def sidebar_navigation():
     """Menú de navegación lateral"""
-
-    # Reemplaza 'nombre_de_tu_logo.png' con el nombre de archivo real de tu logo.
-
-    # Reemplaza 'nombre_de_tu_logo.png' con el nombre de archivo real de tu logo.
-
+    
     st.sidebar.image(
         "logo.png",
-        caption="Observatorio de Salud Mental Escolar",  # Texto opcional
         use_column_width=True # Ajusta la imagen al ancho de la barra lateral
     )
 
@@ -169,7 +164,7 @@ def sidebar_navigation():
     **Observatorio de Salud Mental Escolar**
 
     📍 Bogotá D.C.
-    📅 Actualizado: 2024
+    📅 Creado: 2025
     🎯 Enfoque: Niños, niñas, adolescentes y jóvenes
     """)
 

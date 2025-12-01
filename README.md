@@ -37,10 +37,22 @@ Sofía tuvo suerte. Recibió atención a tiempo. Pero en 2023 hubo 230 suicidios
 
 ## 🎥 Demostración de la Aplicación
 
-<p>
-  Aquí puedes ver la demostración completa de las funcionalidades clave de la aplicación.
-  El video se reproduce directamente sin necesidad de descargas.
+A continuación puedes ver un demo breve del funcionamiento. Haz clic en la imagen para reproducir el video completo.
+
+<p align="center">
+  assets/demo.mp4
+    assets/demo.gif
+  </a>
 </p>
+
+<p align="center">
+  assets/demo.mp4
+    https://img.shields.io/badge/Descargar%20MP4-🎬-blue
+  </a>
+</p>
+
+> Si tu navegador no reproduce el video embebido, usa el botón de descarga.
+
 
 ---
 

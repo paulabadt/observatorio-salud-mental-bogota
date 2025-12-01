@@ -44,8 +44,7 @@ A continuación puedes ver un demo breve del funcionamiento. Haz clic en la imag
   assets/demo.mp4
     <img src="assets/demo.gif" alt="Demo de la app" width="720rgar el MP4 -->
 <p align="center">
-  assets/demo.mp4
-    https://img.shields.io/badge/Descargar%20MP4-🎬-blue
+    <a href="assets/demo.mp4s://img.shields.io/badge/Descargar%20MP4-🎬-blue">
   </a>
 </p>
 
